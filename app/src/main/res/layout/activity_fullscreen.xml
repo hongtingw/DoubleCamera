@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099cc"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    android:visibility="visible"
+    tools:context="per.ht.doublecamera.FullscreenActivity"
+    tools:visibility="visible">
+
+    <FrameLayout
+        android:id="@+id/back_cam_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:fitsSystemWindows="true"
+        android:background="#9999cc"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+    <FrameLayout
+        android:id="@+id/usb_cam_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:fitsSystemWindows="true"
+        android:background="#9900cc"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+</LinearLayout>
